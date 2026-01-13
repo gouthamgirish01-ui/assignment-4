@@ -1,6 +1,6 @@
 try:
     fh=open("sample.txt","rt")
-    print("Reading File content")
+    print("Reading file content:\n")
     count = 1
     for i in fh.readlines():
         if i!='':
